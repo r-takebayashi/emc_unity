@@ -7,12 +7,10 @@ import json
 
 
 EMC_Unity_IP = raw_input('your EMC Unity IP Address: ')
-#EMC_Unity_IP = "10.44.131.184"
 URL = 'https://' + EMC_Unity_IP  + '/api/types/user/instances'
 USER = raw_input('Enter Unity\'s admin name: ')
 #USER = "admin"
 PASSWORD = getpass('Enter Unity\'s admin password: ')
-#PASSWORD = "Passw0rd!"
 
 
 s = requests.Session()
